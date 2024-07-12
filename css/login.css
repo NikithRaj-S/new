@@ -1,0 +1,146 @@
+*{
+    background-color: black;
+}
+img{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 90%;
+}
+.login {
+    color: black;
+    background-color: white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 120vh;
+    width: 57vh;
+    height: 85vh;
+    box-shadow: 1px 1px 20px 5px rgb(59, 47, 47);
+}
+.login p{
+    background-color: transparent;
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 37px;
+    font-family: 'FF Mark W05', sans-serif;
+    font-weight: bold;
+}
+.login #user, #pass{
+    background: whitesmoke;
+    margin-top: 20px;
+    height: 60px;
+    width: 40vh;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+}
+.login input:after{
+    border: 2px solid black;
+}
+.button{
+    margin-left: 85px;
+    margin-top: 20px;
+    background: transparent;
+}
+a{
+    background: transparent;
+}
+button:hover{
+    cursor: pointer;
+}
+.button #fb{
+    height: 40px;
+    width: 128px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(9, 123, 230);
+    background-color: rgb(9, 123, 230);
+}
+.button #fb i{
+    background: transparent;
+    font-size: 25px;
+}
+.button #gg{
+    height: 40px;
+    width: 128px;
+    border-radius: 5px;
+    background: transparent;
+    color: black;
+    border: 2px solid #F2F2F2;
+    background-color: white;
+}
+.button #gg i{
+    background: transparent;
+    font-size: 24px;
+}
+.button #ap{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    border: 2px solid #000000;
+    background-color: rgb(0, 0, 0);
+}
+.button #ap i{
+    background: transparent;
+    font-size: 25px;
+}
+table{
+    background: transparent;
+    margin-left: 82px;
+    margin-top: 10px;
+}
+table tr{
+    background: white;
+}
+table tr td{
+    background: white;
+    font-family: sans-serif, monospace;
+    font-weight: 530;
+}
+table tr td #check{
+    height: 60px;
+    border: 2px solid white;
+}
+.login .button2{
+    margin-top: 20px;
+    background-color: transparent;
+}
+.button2 #con{
+    background-color: #FF4655;
+    height: 70px;
+    width: 70px;
+    margin-left: 250px;
+    border: 0px;
+    border-radius: 20px;
+}
+.button2 #con:hover{
+    background-color: #cf3a46;
+}
+.icon{
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+.icon i{
+    background: transparent;
+    font-size: 25px;
+}
+h5{
+    background: transparent;
+    text-align: center;
+    margin-top: 100px;
+}
+a{
+    color: #666666;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover{
+    color: black;
+}

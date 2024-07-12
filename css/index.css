@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');                
+
+*{
+    background: rgba(0, 0, 0, 0.719);
+    cursor: cell;
+}
+
+#valorant{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 60%;
+}
+.menu{
+    width: 100%;
+    color: white;
+    position: fixed;
+    text-align: center;
+    margin-top: 30px;
+    background: transparent;
+}
+.menu a{
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: none;
+}
+.content{
+    position: fixed;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    background: rgba(0, 0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(0, 0, 0, 0);
+}
+span{
+    font-family: 'VALORANT', sans-serif;
+    background: rgba(0, 0, 0, 0);
+    font-size: 80px;
+}
+button{
+    border: 1px solid white;
+    background: #B50B3A;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 40px;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 180px;
+    height: 60px;
+    scroll-behavior: ;
+}
+button:hover{
+    background: rgb(59, 65, 94); 
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#a{
+    background: transparent;
+    width: 50%;
+}
+#aa{
+    background: transparent;
+    width: 50%;
+}
+img{
+    margin-top: 150px;
+    margin-left: 10px;
+    height: 270;
+    border: 2px solid whitesmoke;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    opacity: 1;
+    transition:  0.3s ease-in;
+}
+img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
